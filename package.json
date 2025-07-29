@@ -1,0 +1,21 @@
+{
+  "name": "thomas-vance",
+  "version": "1.0.0",
+  "description": "Grid Scroll Animations with GSAP and Lenis",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "start": "echo Static site, open index.html in browser",
+    "serve": "npx serve",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.32",
+    "gsap": "^3.12.5",
+    "imagesloaded": "^5.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.6"
+  }
+}
