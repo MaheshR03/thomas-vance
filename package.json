@@ -8,7 +8,8 @@
     "start": "echo Static site, open index.html in browser",
     "serve": "npx serve",
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@studio-freight/lenis": "^1.0.32",
@@ -16,6 +17,7 @@
     "imagesloaded": "^5.0.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^7.0.6"
   }
 }
